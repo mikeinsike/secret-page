@@ -1,0 +1,21 @@
+<h3>Login</h3>
+<input id="text_a" type="text;" placeholder=Password required />
+<p id="answer"></p>
+<button onclick="myFunction()">Login</button>
+
+<script>
+function myFunction()
+{
+var a=document.getElementById("text_a").value;
+
+if (a=="DevPage")
+  {
+document.getElementById("answer").innerHTML="Correct, Redirecting";
+location.replace('https://tycr-web.mikeinsike.com/1984/8736/dp');
+}
+else
+  {
+document.getElementById("answer").innerHTML="Incorrect!";
+  }
+}
+</script>
